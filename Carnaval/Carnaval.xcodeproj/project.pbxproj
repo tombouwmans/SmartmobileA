@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F5803C54202DC0160079BC36 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5803C53202DC0160079BC36 /* AppDelegate.swift */; };
+		F5803C56202DC0160079BC36 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5803C55202DC0160079BC36 /* ViewController.swift */; };
+		F5803C59202DC0160079BC36 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5803C57202DC0160079BC36 /* Main.storyboard */; };
+		F5803C5B202DC0160079BC36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5803C5A202DC0160079BC36 /* Assets.xcassets */; };
+		F5803C5E202DC0160079BC36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5803C5C202DC0160079BC36 /* LaunchScreen.storyboard */; };
+		F5803C69202DC0160079BC36 /* CarnavalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5803C68202DC0160079BC36 /* CarnavalTests.swift */; };
+		F5803C74202DC0160079BC36 /* CarnavalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5803C73202DC0160079BC36 /* CarnavalUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F5803C65202DC0160079BC36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5803C48202DC0160079BC36 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5803C4F202DC0160079BC36;
+			remoteInfo = Carnaval;
+		};
+		F5803C70202DC0160079BC36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5803C48202DC0160079BC36 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5803C4F202DC0160079BC36;
+			remoteInfo = Carnaval;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F5803C50202DC0160079BC36 /* Carnaval.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Carnaval.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5803C53202DC0160079BC36 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F5803C55202DC0160079BC36 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F5803C58202DC0160079BC36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F5803C5A202DC0160079BC36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F5803C5D202DC0160079BC36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F5803C5F202DC0160079BC36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5803C64202DC0160079BC36 /* CarnavalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarnavalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5803C68202DC0160079BC36 /* CarnavalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarnavalTests.swift; sourceTree = "<group>"; };
+		F5803C6A202DC0160079BC36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5803C6F202DC0160079BC36 /* CarnavalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarnavalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5803C73202DC0160079BC36 /* CarnavalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarnavalUITests.swift; sourceTree = "<group>"; };
+		F5803C75202DC0160079BC36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F5803C4D202DC0160079BC36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5803C61202DC0160079BC36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5803C6C202DC0160079BC36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F5803C47202DC0160079BC36 = {
+			isa = PBXGroup;
+			children = (
+				F5803C52202DC0160079BC36 /* Carnaval */,
+				F5803C67202DC0160079BC36 /* CarnavalTests */,
+				F5803C72202DC0160079BC36 /* CarnavalUITests */,
+				F5803C51202DC0160079BC36 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F5803C51202DC0160079BC36 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5803C50202DC0160079BC36 /* Carnaval.app */,
+				F5803C64202DC0160079BC36 /* CarnavalTests.xctest */,
+				F5803C6F202DC0160079BC36 /* CarnavalUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5803C52202DC0160079BC36 /* Carnaval */ = {
+			isa = PBXGroup;
+			children = (
+				F5803C53202DC0160079BC36 /* AppDelegate.swift */,
+				F5803C55202DC0160079BC36 /* ViewController.swift */,
+				F5803C57202DC0160079BC36 /* Main.storyboard */,
+				F5803C5A202DC0160079BC36 /* Assets.xcassets */,
+				F5803C5C202DC0160079BC36 /* LaunchScreen.storyboard */,
+				F5803C5F202DC0160079BC36 /* Info.plist */,
+			);
+			path = Carnaval;
+			sourceTree = "<group>";
+		};
+		F5803C67202DC0160079BC36 /* CarnavalTests */ = {
+			isa = PBXGroup;
+			children = (
+				F5803C68202DC0160079BC36 /* CarnavalTests.swift */,
+				F5803C6A202DC0160079BC36 /* Info.plist */,
+			);
+			path = CarnavalTests;
+			sourceTree = "<group>";
+		};
+		F5803C72202DC0160079BC36 /* CarnavalUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F5803C73202DC0160079BC36 /* CarnavalUITests.swift */,
+				F5803C75202DC0160079BC36 /* Info.plist */,
+			);
+			path = CarnavalUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F5803C4F202DC0160079BC36 /* Carnaval */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5803C78202DC0160079BC36 /* Build configuration list for PBXNativeTarget "Carnaval" */;
+			buildPhases = (
+				F5803C4C202DC0160079BC36 /* Sources */,
+				F5803C4D202DC0160079BC36 /* Frameworks */,
+				F5803C4E202DC0160079BC36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Carnaval;
+			productName = Carnaval;
+			productReference = F5803C50202DC0160079BC36 /* Carnaval.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F5803C63202DC0160079BC36 /* CarnavalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5803C7B202DC0160079BC36 /* Build configuration list for PBXNativeTarget "CarnavalTests" */;
+			buildPhases = (
+				F5803C60202DC0160079BC36 /* Sources */,
+				F5803C61202DC0160079BC36 /* Frameworks */,
+				F5803C62202DC0160079BC36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5803C66202DC0160079BC36 /* PBXTargetDependency */,
+			);
+			name = CarnavalTests;
+			productName = CarnavalTests;
+			productReference = F5803C64202DC0160079BC36 /* CarnavalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F5803C6E202DC0160079BC36 /* CarnavalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5803C7E202DC0160079BC36 /* Build configuration list for PBXNativeTarget "CarnavalUITests" */;
+			buildPhases = (
+				F5803C6B202DC0160079BC36 /* Sources */,
+				F5803C6C202DC0160079BC36 /* Frameworks */,
+				F5803C6D202DC0160079BC36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5803C71202DC0160079BC36 /* PBXTargetDependency */,
+			);
+			name = CarnavalUITests;
+			productName = CarnavalUITests;
+			productReference = F5803C6F202DC0160079BC36 /* CarnavalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F5803C48202DC0160079BC36 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Fhict;
+				TargetAttributes = {
+					F5803C4F202DC0160079BC36 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					F5803C63202DC0160079BC36 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F5803C4F202DC0160079BC36;
+					};
+					F5803C6E202DC0160079BC36 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F5803C4F202DC0160079BC36;
+					};
+				};
+			};
+			buildConfigurationList = F5803C4B202DC0160079BC36 /* Build configuration list for PBXProject "Carnaval" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F5803C47202DC0160079BC36;
+			productRefGroup = F5803C51202DC0160079BC36 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5803C4F202DC0160079BC36 /* Carnaval */,
+				F5803C63202DC0160079BC36 /* CarnavalTests */,
+				F5803C6E202DC0160079BC36 /* CarnavalUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F5803C4E202DC0160079BC36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5803C5E202DC0160079BC36 /* LaunchScreen.storyboard in Resources */,
+				F5803C5B202DC0160079BC36 /* Assets.xcassets in Resources */,
+				F5803C59202DC0160079BC36 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5803C62202DC0160079BC36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5803C6D202DC0160079BC36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F5803C4C202DC0160079BC36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5803C56202DC0160079BC36 /* ViewController.swift in Sources */,
+				F5803C54202DC0160079BC36 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5803C60202DC0160079BC36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5803C69202DC0160079BC36 /* CarnavalTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5803C6B202DC0160079BC36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5803C74202DC0160079BC36 /* CarnavalUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F5803C66202DC0160079BC36 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5803C4F202DC0160079BC36 /* Carnaval */;
+			targetProxy = F5803C65202DC0160079BC36 /* PBXContainerItemProxy */;
+		};
+		F5803C71202DC0160079BC36 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5803C4F202DC0160079BC36 /* Carnaval */;
+			targetProxy = F5803C70202DC0160079BC36 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F5803C57202DC0160079BC36 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5803C58202DC0160079BC36 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F5803C5C202DC0160079BC36 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5803C5D202DC0160079BC36 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F5803C76202DC0160079BC36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F5803C77202DC0160079BC36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F5803C79202DC0160079BC36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Carnaval/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fhict.Carnaval;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F5803C7A202DC0160079BC36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Carnaval/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fhict.Carnaval;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F5803C7C202DC0160079BC36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CarnavalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fhict.CarnavalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Carnaval.app/Carnaval";
+			};
+			name = Debug;
+		};
+		F5803C7D202DC0160079BC36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CarnavalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fhict.CarnavalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Carnaval.app/Carnaval";
+			};
+			name = Release;
+		};
+		F5803C7F202DC0160079BC36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CarnavalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fhict.CarnavalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Carnaval;
+			};
+			name = Debug;
+		};
+		F5803C80202DC0160079BC36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CarnavalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fhict.CarnavalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Carnaval;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F5803C4B202DC0160079BC36 /* Build configuration list for PBXProject "Carnaval" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5803C76202DC0160079BC36 /* Debug */,
+				F5803C77202DC0160079BC36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5803C78202DC0160079BC36 /* Build configuration list for PBXNativeTarget "Carnaval" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5803C79202DC0160079BC36 /* Debug */,
+				F5803C7A202DC0160079BC36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5803C7B202DC0160079BC36 /* Build configuration list for PBXNativeTarget "CarnavalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5803C7C202DC0160079BC36 /* Debug */,
+				F5803C7D202DC0160079BC36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5803C7E202DC0160079BC36 /* Build configuration list for PBXNativeTarget "CarnavalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5803C7F202DC0160079BC36 /* Debug */,
+				F5803C80202DC0160079BC36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F5803C48202DC0160079BC36 /* Project object */;
+}
