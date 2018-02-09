@@ -56,6 +56,18 @@ func deleteShips(ship: pirateShip){
     }
 }
 
+enum compass{
+    case east
+    case west
+}
+
+var direction = compass.east
+
+switch direction {
+case .east:print("GO STARBOARD")
+case .west:print("GO PORTSIDE")
+}
+
 
 
 
