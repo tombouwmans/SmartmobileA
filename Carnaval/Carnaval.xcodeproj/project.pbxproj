@@ -14,6 +14,7 @@
 		F5803C5E202DC0160079BC36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5803C5C202DC0160079BC36 /* LaunchScreen.storyboard */; };
 		F5803C69202DC0160079BC36 /* CarnavalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5803C68202DC0160079BC36 /* CarnavalTests.swift */; };
 		F5803C74202DC0160079BC36 /* CarnavalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5803C73202DC0160079BC36 /* CarnavalUITests.swift */; };
+		F5803C82202DC4E60079BC36 /* images in Resources */ = {isa = PBXBuildFile; fileRef = F5803C81202DC4E50079BC36 /* images */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		F5803C6F202DC0160079BC36 /* CarnavalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarnavalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5803C73202DC0160079BC36 /* CarnavalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarnavalUITests.swift; sourceTree = "<group>"; };
 		F5803C75202DC0160079BC36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5803C81202DC4E50079BC36 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		F5803C52202DC0160079BC36 /* Carnaval */ = {
 			isa = PBXGroup;
 			children = (
+				F5803C81202DC4E50079BC36 /* images */,
 				F5803C53202DC0160079BC36 /* AppDelegate.swift */,
 				F5803C55202DC0160079BC36 /* ViewController.swift */,
 				F5803C57202DC0160079BC36 /* Main.storyboard */,
@@ -232,6 +235,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5803C82202DC4E60079BC36 /* images in Resources */,
 				F5803C5E202DC0160079BC36 /* LaunchScreen.storyboard in Resources */,
 				F5803C5B202DC0160079BC36 /* Assets.xcassets in Resources */,
 				F5803C59202DC0160079BC36 /* Main.storyboard in Resources */,

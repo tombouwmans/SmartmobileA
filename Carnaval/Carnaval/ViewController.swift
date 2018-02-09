@@ -1,11 +1,3 @@
-//
-//  ViewController.swift
-//  Carnaval
-//
-//  Created by Fhict on 09/02/2018.
-//  Copyright © 2018 Fhict. All rights reserved.
-//
-
 import UIKit
 
 class ViewController: UIViewController {
@@ -19,7 +11,5 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
 }
 
