@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="vZq-F9-y9n">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Movieapp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Eh5-rv-jAg">
+                                <rect key="frame" x="168" y="373" width="39" height="30"/>
+                                <state key="normal" title="Why?"/>
+                                <connections>
+                                    <segue destination="8k5-lb-Fcs" kind="show" id="oz8-Zk-XRr"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The worst movie is shrek 2" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7bz-53-EWb">
+                                <rect key="frame" x="72" y="317" width="231" height="32"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="7bz-53-EWb" firstAttribute="centerX" secondItem="Eh5-rv-jAg" secondAttribute="centerX" id="C2F-C8-2K8"/>
+                            <constraint firstItem="7bz-53-EWb" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="MiH-we-EBc"/>
+                            <constraint firstItem="7bz-53-EWb" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="72" id="YtT-pn-X8T"/>
+                            <constraint firstItem="7bz-53-EWb" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="253" id="mEa-aP-qR9"/>
+                            <constraint firstItem="7bz-53-EWb" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="sl2-r7-BwX"/>
+                            <constraint firstItem="Eh5-rv-jAg" firstAttribute="top" secondItem="7bz-53-EWb" secondAttribute="bottom" constant="24" id="t26-9I-L0u"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="leP-D3-gID"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="945.5" y="-198.5"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="hay-X9-XMI">
+            <objects>
+                <viewController id="8k5-lb-Fcs" customClass="ViewController" customModule="Movieapp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="lv0-fH-YnF">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No smash mouth - all stars" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v1B-R3-VR7">
+                                <rect key="frame" x="83" y="323" width="208" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aPA-2i-Ru9">
+                                <rect key="frame" x="110" y="376" width="155" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="VpR-fV-Y2v"/>
+                                </constraints>
+                                <state key="normal" title="Let's change this!"/>
+                                <connections>
+                                    <action selector="buttonclick:" destination="8k5-lb-Fcs" eventType="touchUpInside" id="Yds-Dg-6z6"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lSw-pV-4Kg">
+                                <rect key="frame" x="16" y="435" width="343" height="183"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="aPA-2i-Ru9" firstAttribute="centerX" secondItem="lSw-pV-4Kg" secondAttribute="centerX" id="Cb8-kE-SbG"/>
+                            <constraint firstItem="aPA-2i-Ru9" firstAttribute="leading" secondItem="7EJ-a8-fxV" secondAttribute="leading" constant="110" id="EcR-wI-xIq"/>
+                            <constraint firstItem="v1B-R3-VR7" firstAttribute="centerY" secondItem="lv0-fH-YnF" secondAttribute="centerY" id="Oro-Xw-kbO"/>
+                            <constraint firstItem="lSw-pV-4Kg" firstAttribute="trailing" secondItem="lv0-fH-YnF" secondAttribute="trailingMargin" id="Vrr-Hj-Bwh"/>
+                            <constraint firstItem="lSw-pV-4Kg" firstAttribute="top" secondItem="aPA-2i-Ru9" secondAttribute="bottom" constant="29" id="cIl-yl-tSV"/>
+                            <constraint firstItem="lSw-pV-4Kg" firstAttribute="bottom" secondItem="7EJ-a8-fxV" secondAttribute="bottom" id="eCO-wq-79e"/>
+                            <constraint firstItem="lSw-pV-4Kg" firstAttribute="leading" secondItem="lv0-fH-YnF" secondAttribute="leadingMargin" id="hVq-ln-D99"/>
+                            <constraint firstItem="v1B-R3-VR7" firstAttribute="centerX" secondItem="aPA-2i-Ru9" secondAttribute="centerX" id="j1D-Hu-9DE"/>
+                            <constraint firstItem="v1B-R3-VR7" firstAttribute="leading" secondItem="7EJ-a8-fxV" secondAttribute="leading" constant="83" id="t3E-Kp-qhH"/>
+                            <constraint firstItem="aPA-2i-Ru9" firstAttribute="top" secondItem="v1B-R3-VR7" secondAttribute="bottom" constant="32" id="u3F-fo-26O"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="7EJ-a8-fxV"/>
+                    </view>
+                    <connections>
+                        <outlet property="buttonPress" destination="aPA-2i-Ru9" id="fyw-5r-CPO"/>
+                        <outlet property="labellyrics" destination="lSw-pV-4Kg" id="obS-PG-koG"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xmA-90-8rN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1405.5" y="-199.5"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="zLm-EB-ev6">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="vZq-F9-y9n" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Ydm-HX-vp7">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="wC0-iM-Lpn" kind="relationship" relationship="viewControllers" id="coF-Ln-fzK"/>
+                        <segue destination="2Kg-DE-4CJ" kind="relationship" relationship="viewControllers" id="mPW-tb-Uap"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="otr-bc-7RJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-163.19999999999999" y="133.13343328335833"/>
+        </scene>
+        <!--Best-->
+        <scene sceneID="Ck1-Yh-3pQ">
+            <objects>
+                <viewController id="2Kg-DE-4CJ" customClass="ViewController" customModule="Movieapp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="neP-n3-mcd">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="The best movie is shrek" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PD3-dC-BbD">
+                                <rect key="frame" x="88" y="323" width="196" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NN3-42-V84">
+                                <rect key="frame" x="164" y="363" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Why?"/>
+                                <connections>
+                                    <action selector="showPopup:" destination="2Kg-DE-4CJ" eventType="touchUpInside" id="ZM7-lR-CTk"/>
+                                </connections>
+                            </button>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="SOMEBODY ONE TOLD ME THE WORLD IS GONNA ROLL ME, I AIN'T THE SHARPEST TOOL IN THE SHED" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F0x-Y9-wSg">
+                                <rect key="frame" x="88" y="227" width="196" height="212"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t3q-gs-Q0R">
+                                <rect key="frame" x="163" y="447" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Close">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="hidePopup:" destination="2Kg-DE-4CJ" eventType="touchUpInside" id="6s7-ve-81A"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="Toh-X4-9VT"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Best" id="IdM-r8-sIM"/>
+                    <connections>
+                        <outlet property="buttonpopup" destination="NN3-42-V84" id="vB5-1j-JZN"/>
+                        <outlet property="closebutton" destination="t3q-gs-Q0R" id="kN5-fN-vuB"/>
+                        <outlet property="popuplabel" destination="F0x-Y9-wSg" id="Zqt-yT-1HX"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="a64-jj-OiP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="944.79999999999995" y="571.66416791604206"/>
+        </scene>
+        <!--Worst-->
+        <scene sceneID="t9r-N1-A9P">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="wC0-iM-Lpn" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Worst" id="B2i-Bl-CPK"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="y1N-SM-Ucb">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="kdm-T0-vGM"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="v4Q-Od-t1s" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="425" y="-198"/>
+        </scene>
+    </scenes>
+</document>
