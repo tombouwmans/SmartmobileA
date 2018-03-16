@@ -2,35 +2,38 @@
 //  ViewController.swift
 //  Zombies
 //
-//  Created by Fhict on 09/03/2018.
+//  Created by Fhict on 16/03/2018.
 //  Copyright © 2018 Fhict. All rights reserved.
 //
 
 import UIKit
+import CoreLocation
+import MapKit
 
-class ViewController: UIViewController, CLLocationManagerDelegate {
+class ViewController: UIViewController, CLLocationManagerDelegate{
 
-    let locationManager = locantionManager()
-    @IBOutlet weak var mapView: MKMapView!
+    @IBOutlet var mapView: MKMapView!
+    let locationManager = CLLocationManager()
+    let annotationCircle = MKCircle()
+    let annotation = MKPointAnnotation()
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         locationManager.delegate = self
         locationManager.requestWhenInUseAuthorization()
-        
         locationManager.startUpdatingLocation()
-    }
+        }
     
-    func locantionManager(_ manager: CLLocationManager,didUpdateLocantions locations:[CLLocation]){
+    func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
         let newLocation = locations[0]
-        mapView.setCenter(newLocation.coordinate, animated:true)
-    }
-    
+        mapView.setCenter(newLocation.coordinate, animated: true)
+        annotation.coordinate = CLLocationCoordinate2D(latitude: newLocation.coordinate.latitude, longitude: newLocation.coordinate.longitude)
+        mapView.addAnnotation(annotation)
+        }
+
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
 }
-
